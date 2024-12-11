@@ -12,21 +12,33 @@
         body {
             background-color: #363231 !important;
         }
+        h1 {
+            color: #b89553;
+            font-size: 10vw;
+            margin: auto;
+            text-align: center;
+        }
+        p {
+            font-size: 5vw;
+            color: #b89553;
+            margin-left: 20%;
+            margin-right: 20%;
+            text-align: center;
+        }
         .center-image {
             display: block;
             margin: auto;
-            margin-top: 20px;
         }
         .enlarge-image {
             width: 60%;
-            height: 60%;
+            height: auto;
         }
         .medium-image {
             width: 40%;
-            height: 40%;
+            height: auto;
         }
         table, th, td {
-            border: 2px solid gold;
+            border: 2px solid #b89553;
             color: whitesmoke;
             font-size: 20pt;
             text-align: center;
@@ -34,13 +46,28 @@
             align-items: center;
             margin-top: 20px;
         }
+        .border-container {
+            margin: 0.1vw auto; /* Center the content with margin */
+            padding: 20px; /* Add space inside the border */
+            border: 0.5vw solid #b89553; /* Gold border */
+            max-width: 99vw; /* Limit the width to 99% of the viewport */
+            height: 99vh;
+            box-sizing: border-box; /* Include padding inside the width/height */
+        }
     </style>
     <body>
-        <table>
+        <div class="border-container">
             <img class="center-image medium-image" src="images/Spencer-Meal-Logo-Final-Grey.png" alt="Spencer Meal Logo">
+            <h1>
+                <em>Spencer Meal</em>
+            </h1>
+            <p>
+                Come and taste Spencer's <em>salty</em> flavour
+            </p>
+            <img class="center-image medium-image" src="images/Spanker-Meal-Transparent.png" alt="Spanker Meal Transparent">
 
 
-        </table>
+        </div>
     </body>
 
 
